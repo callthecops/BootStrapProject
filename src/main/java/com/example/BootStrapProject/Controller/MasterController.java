@@ -26,5 +26,10 @@ public class MasterController {
         return "home";
     }
 
+    @GetMapping("/newpage")
+    public String getNewPage() {
+
+        return "newpage";
+    }
 
 }
