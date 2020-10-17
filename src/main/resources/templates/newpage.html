@@ -8,8 +8,32 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
+
+    #projectName{
+    margin-top:10px;
+    color:grey;
+    }
+
     #projectName:hover{
+
     color:white;
+    border-radius:10px;
+    cursor:pointer;
+    }
+
+    input[type=text]{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:15px;
+    border-radius:5px;
+    height:35px;
+    }
+
+    input[type=submit]{
+    margin-top:13px;
+    background-color:rgb(92,184,92);
+    color:white;
+    border-radius:5px;
     }
 
 
@@ -22,14 +46,20 @@
     <div class="row" style="background-color:rgb(34,34,34);">
         <div class="col-sm-1"></div>
         <div class="col-sm-2">
-            <h4 id="projectName" style="color:grey;">Project Name</h4>
+            <h4 id="projectName">Project Name</h4>
         </div>
-        <div class="col-sm-4"></div>
+        <div class="col-sm-3"></div>
         <div class="col-sm-2">
-            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
         </div>
+        <div class="col-sm-2">
+            <input type="text" placeholder="Password">
+        </div>
+        <div class="col-sm-1">
+            <input type="submit" value="Sign In">
+        </div>
+        <div class="col-sm-1"></div>
     </div>
-
 
 </div>
 
