@@ -21,12 +21,24 @@
     cursor:pointer;
     }
 
+    #email2{margin-left:30px;}
+
     input[type=text]{
     margin-top:10px;
     margin-bottom:10px;
     padding-left:15px;
     border-radius:5px;
     height:35px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    transition: border 1s;
+    }
+
+    input[type=text]:focus{
+    border:solid blue 0.5px;
+    outline:none;
     }
 
     input[type=submit]{
@@ -34,6 +46,18 @@
     background-color:rgb(92,184,92);
     color:white;
     border-radius:5px;
+    margin-left:-25px;
+    outline:none;
+    margin-top:11px;
+    margin-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    height:35px;
+    }
+
+    input[type=submit]:hover{
+    color:white;
+    background-color:darkgreen;
     }
 
 
@@ -50,9 +74,9 @@
         </div>
         <div class="col-sm-3"></div>
         <div class="col-sm-2">
-            <input type="text" placeholder="Email">
+            <input type="text" div id="email2" placeholder="Email">
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-2" div id="password">
             <input type="text" placeholder="Password">
         </div>
         <div class="col-sm-1">
