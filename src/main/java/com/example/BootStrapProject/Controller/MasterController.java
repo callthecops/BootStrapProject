@@ -32,4 +32,9 @@ public class MasterController {
         return "newpage";
     }
 
+    @GetMapping("/copypage")
+    public String getCopyPage() {
+
+        return "copypage";
+    }
 }
